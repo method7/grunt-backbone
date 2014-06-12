@@ -1,0 +1,9 @@
+*.DS_Store
+*.pyc
+*.swf
+node_modules
+.sass-cache
+.idea
+source/coffee/Version.coffee
+source/sass/version.scss
+deploy/static

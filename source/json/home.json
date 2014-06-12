@@ -1,0 +1,39 @@
+{
+	"data": {
+		"articles": [
+			{
+				"type": "hero",
+				"title": "Home page hero",
+				"images": [
+					{
+						"alt": "man on the moon",
+						"src": "images/home/image1.png"
+					},
+					{
+						"alt": "man on the marsn",
+						"src": "images/home/image2.png"
+					}
+				], 
+				"copy": "this <span>has</span> inline html"
+			},
+			{
+				"type": "imageRight",
+				"title": "Home page title one",
+				"images": [
+					{
+						"alt": "man on the moon",
+						"src": "images/home/image1.png"
+					}
+				], 
+				"copy": "this <strong>has</strong> inline html"
+			},
+			{
+				"type": "imageleft",
+				"title": "Home page title two",
+				"images": [], 
+				"copy": "this <em>has</em> inline html"
+			}
+		]
+	}, 
+	"status": "success"
+}

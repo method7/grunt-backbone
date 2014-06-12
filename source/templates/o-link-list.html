@@ -1,0 +1,9 @@
+<ol>
+	{{#eachfirstlast nav}}
+		{{#if url}}
+			{{> list-link-item}}
+		{{else}}
+			{{> list-item}}
+		{{/if}}
+	{{/eachfirstlast}}
+</ol>

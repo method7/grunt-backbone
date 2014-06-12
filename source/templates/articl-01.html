@@ -1,0 +1,13 @@
+{{#each articles}}
+<article class="{{ type }}">
+	<h1>{{ title }}</h1>
+	{{#if images.length}}
+	<ul class="{{ isCarousel images }}">
+		{{#each images}}
+		<li><img src="{{ src }}" alt="{{ alt }}" /></li>
+		{{/each}}
+	</ul>
+	{{/if}}
+	<p>{{{ copy }}}</p>
+</article>
+{{/each}}
