@@ -1,4 +1,4 @@
-app_scaffolding
+grunt-backbone
 ===============
 
 development framework using grunt, coffeeScript, SaSS, and Handlebars

@@ -5,5 +5,5 @@ node_modules
 .sass-cache
 .idea
 source/coffee/Version.coffee
-source/sass/version.scss
+source/scss/version.scss
 deploy/static
