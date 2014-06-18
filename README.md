@@ -9,32 +9,32 @@ The goal of this project is to lay out a robust (but not fixed) front-end develo
 
 The current features are listed below (more to add?).
 
-Features
+##Features
 ===============
-twitter bootstrap sass/CSS/JS
-backbone.js
-underscore.js
-jQuery.js
-modernizr.js
+* twitter bootstrap sass/CSS/JS
+* backbone.js
+* underscore.js
+* jQuery.js
+* modernizr.js
 
-Build process includes
+##Build process includes
 ===============
-CoffeeScript compiler
-SASS compiler
-handlebars template compiler
-uglify JavaScript 
-minify CSS 
-Clean and Copy
-version output generated from git (to be included in sass/coffee build and release process)
+* CoffeeScript compiler
+* SASS compiler
+* handlebars template compiler
+* uglify JavaScript 
+* minify CSS 
+* Clean and Copy
+* version output generated from git (to be included in sass/coffee build and release process)
 
-TODO - not conclusive for sure
+##TODO - not conclusive for sure
 ===============
-global variables "grunt/globals.coffee"
-DEV/STAGE/DEPLOY tasks separation
-Unit testing
-add version querystring token for dependencies to prevent caching
+* global variables "grunt/globals.coffee"
+* DEV/STAGE/DEPLOY tasks separation
+* Unit testing
+* add version querystring token for dependencies to prevent caching
 
-Get started
+##Get started
 ===============
 To get going you need node.js http://nodejs.org/  installed with npm (node package manager) https://www.npmjs.org/ and grunt.js http://gruntjs.com/installing-grunt
 then simply navigate node console to the root directory where gruntfile.coffee and package.json exist
