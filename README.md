@@ -24,7 +24,7 @@ The current features are listed below (more to add?).
 * Clean and Copy
 * version output generated from git (to be included in sass/coffee build and release process)
 
-## TODO - not conclusive for sure
+## TODO - inconclusive for sure
 * global variables "grunt/globals.coffee"
 * DEV/STAGE/DEPLOY tasks separation
 * Unit testing
@@ -41,11 +41,12 @@ Type "npm install" and all the requirements should download and install once com
 npm install 
 ```
 
-### Run local Gruntfile > dev process
+### Run local Gruntfile - dev process
 ```shell
 grunt
+```
 
-### Run local Gruntfile > deploy process
+### Run local Gruntfile - deploy process
 ```shell
 deploy
 ```
