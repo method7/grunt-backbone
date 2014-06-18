@@ -3,7 +3,7 @@ fs				= require 'fs'
 child_process 	= require 'child_process'
 
 module.exports =
-	# ----- Generates Version includes for sass/coffee
+	# ----- Generates Version includes for sass/coffee from git version
 	generateVersioningOutput: ( onComplete )->
 		pkg = JSON.parse( fs.readFileSync( "package.json", 'utf8') )
 		child_process.exec 'git rev-parse --short HEAD',(error,stdout,stderr)->
