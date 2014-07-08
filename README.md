@@ -16,7 +16,7 @@ The current features are listed below (more to add?).
 * modernizr.js
 
 ## Build process includes
-* CoffeeScript compiler
+* CoffeeScript/javaScript compiler
 * SASS compiler
 * handlebars template compiler
 * uglify JavaScript 
